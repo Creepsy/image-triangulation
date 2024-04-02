@@ -21,6 +21,7 @@ description:         Please see the README on GitHub at <https://github.com/Cree
 
 dependencies:
 - base >= 4.7 && < 5
+- JuicyPixels >= 3.3.8 && < 4
 
 ghc-options:
 - -Wall
