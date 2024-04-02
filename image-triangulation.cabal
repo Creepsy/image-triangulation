@@ -25,7 +25,6 @@ source-repository head
 executable image-triangulation
   main-is: Main.hs
   other-modules:
-      Test
       Paths_image_triangulation
   autogen-modules:
       Paths_image_triangulation
