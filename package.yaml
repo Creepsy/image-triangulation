@@ -1,7 +1,7 @@
 name:                image-triangulation
 version:             0.1.0.0
 github:              "Creepsy/image-triangulation"
-license:             BSD-3-Clause license
+license:             BSD-3-Clause
 author:              "Creepsy"
 maintainer:          "-"
 copyright:           "2024 Creepsy"
@@ -33,16 +33,11 @@ ghc-options:
 - -Wpartial-fields
 - -Wredundant-constraints
 
-library:
-  source-dirs: src
-
 executables:
-  image-triangulation-exe:
+  image-triangulation:
     main:                Main.hs
     source-dirs:         src
     ghc-options:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    dependencies:
-    - image-triangulation
